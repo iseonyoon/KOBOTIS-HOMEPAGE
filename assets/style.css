@@ -1,10 +1,134 @@
 body {
   font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 1.4rem;
+  font-size: 0.7rem;
+  background-color: #17307A;
+  animation-duration: 1s;
+  animation-name: fade-in;
 }
 
-nav {
-  background-color: #red;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo {
+  width: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#navmenu {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: -0.05rem;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 0.4rem;
+}
+
+a:link, a:hover, a:visited {
+  color: #17307A;
+}
+
+i {
+  width: 0.5rem;
+  height: 0.5remx;
+  color: #B5B5B5;
+}
+
+#showcase {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+}
+
+#twins1 {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#twins2 {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+#info {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.carousel-caption {
+  color: #17307A;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.5rem;
+  background-color: #B5B5B5;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-control-prev-icon {
+  color: #B5B5B5;
+  opacity: 100%;
+}
+
+.dropdown-menu {
+  color: #17307A;
+  font-size: 0.7rem;
+}
+
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #17307A;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.2rem;
+  line-height: 1;
+}
+
+footer {
+  text-align: left;
+  font-weignt: 100;
+  color: #B5B5B5;
+  margin: 5rem 0rem 2rem 0rem;
+  font-size: 0.7rem;
+}
+
+#ft {
+  color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .container-fluid {
+    width: 75%;
+    font-size: 0.95rem;
+  }
+  #navmenu {
+    font-size: 0.95rem;
+  }
+  .nav {
+    --bs-nav-link-padding-x: 1rem;
+  }
+  .dropdown-menu {
+    font-size: 0.95rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

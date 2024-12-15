@@ -1,11 +1,125 @@
 $font-wanted: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif
 
-$primary-color: #red
-$h1: 3rem
-$n1: 1.4rem
+$colorb: #17307A
+$colorw: #fff
+$colorg: #B5B5B5
+$colorbl: #000
+$h1: 2rem
+$n1: 0.95rem
+$n2: 1.1rem
+$m1: 0.7rem
 
 body
     font-family: $font-wanted
-    font-size: $n1
+    font-size: $m1
+    background-color: $colorb
+    animation-duration: 1s
+    animation-name: fade-in
+
+@keyframes fade-in
+    from
+        opacity: 0
+
+    to
+        opacity: 1
+
+.logo
+    width: 8rem
+    margin-top: 3rem
+    margin-bottom: 2rem
+
+#navmenu
+    background-color: $colorw
+    border: 1px solid $colorb
+    border-radius: 20px
+    padding: 1rem
+    font-weight: 600
+    font-size: $m1
+    letter-spacing: -0.05rem
+.nav
+    --bs-nav-link-padding-x: 0.4rem
+
+a:link, a:hover, a:visited
+    color: $colorb
+
+i
+    width: 0.5rem
+    height: 0.5remx
+    color: $colorg
+
+#showcase
+    background-color: $colorw
+    border: 1px solid $colorb
+    border-radius: 20px
+
+#twins1
+    background-color: $colorw
+    border: 1px solid $colorb
+    border-radius: 20px
+    padding: 1rem
+    display: flex
+    flex-wrap: wrap
+
+#twins2
+    background-color: $colorw
+    border: 1px solid $colorb
+    border-radius: 20px
+    padding: 1rem
+
+#info
+    background-color: $colorw
+    border: 1px solid $colorb
+    border-radius: 20px
+    padding: 1rem
+
+.carousel-caption
+    color: $colorb
+.carousel-indicators [data-bs-target]
+    width: 0.5rem
+    background-color: $colorg
+
+.carousel-control-next, .carousel-control-prev, .carousel-control-prev-icon
+    color: $colorg
+    opacity: 100%
+
+    
+
+.dropdown-menu
+    color: $colorb
+    font-size: $m1
+
+.dropdown-item:active 
+    color: $colorw
+    text-decoration: none
+    background-color: $colorb
+
+.h1, .h2, .h3, .h4, .h5, .h6 
+    margin-bottom: .2rem
+    line-height: 1
+
+footer
+    text-align: left
+    font-weignt:100
+    color: $colorg
+    margin: 5rem 0rem 2rem 0rem
+    font-size: $m1
+
+#ft
+    color: $colorw
+
+@media (min-width: 1000px)
+    .container-fluid
+        width: 75%
+        font-size: $n1
+
+    #navmenu
+        font-size: $n1
+
+    .nav
+        --bs-nav-link-padding-x: 1rem
+
+    .dropdown-menu
+        font-size: $n1
+
 
 
