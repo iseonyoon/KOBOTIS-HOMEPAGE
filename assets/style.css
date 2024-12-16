@@ -1,6 +1,6 @@
 body {
   font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   background-color: #17307A;
   animation-duration: 1s;
   animation-name: fade-in;
@@ -15,9 +15,9 @@ body {
   }
 }
 .logo {
-  width: 8rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  width: 11rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 #navmenu {
@@ -26,7 +26,7 @@ body {
   border-radius: 20px;
   padding: 1rem;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: -0.05rem;
 }
 
@@ -39,8 +39,8 @@ a:link, a:hover, a:visited {
 }
 
 i {
-  width: 0.5rem;
-  height: 0.5remx;
+  width: 0.3rem;
+  height: 0.3rem;
   color: #B5B5B5;
 }
 
@@ -73,6 +73,72 @@ i {
   padding: 1rem;
 }
 
+#history {
+  background-color: #fff;
+  border: 1px solid #17307A;
+  border-radius: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+#hp {
+  font-size: 1.3rem;
+}
+
+#hm {
+  font-size: 0.9rem;
+  color: #B5B5B5;
+}
+
+#histext {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#subt {
+  font-size: 0.9rem;
+  color: #17307A;
+  font-weight: 700;
+}
+
+#recruit {
+  font-size: 1.1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#rtext {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 10px 25px;
+  border: 1.5px solid #17307A;
+  border-radius: 12px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:hover {
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.6), -4px -4px 5px 0px rgba(255, 255, 255, 0.6), 7px 7px 20px 0px rgba(0, 0, 0, 0.1333333333), 4px 4px 5px 0px rgba(0, 0, 0, 0.0666666667);
+}
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #17307A inset;
+}
+
 .carousel-caption {
   color: #17307A;
 }
@@ -89,7 +155,7 @@ i {
 
 .dropdown-menu {
   color: #17307A;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .dropdown-item:active {
@@ -108,26 +174,30 @@ footer {
   font-weignt: 100;
   color: #B5B5B5;
   margin: 5rem 0rem 2rem 0rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 #ft {
   color: #fff;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 1000px) {
   .container-fluid {
     width: 75%;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
   }
   #navmenu {
-    font-size: 0.95rem;
+    font-size: 1.3rem;
   }
   .nav {
     --bs-nav-link-padding-x: 1rem;
   }
   .dropdown-menu {
-    font-size: 0.95rem;
+    font-size: 1.3rem;
+  }
+  #recruit {
+    width: 50%;
   }
 }
 
