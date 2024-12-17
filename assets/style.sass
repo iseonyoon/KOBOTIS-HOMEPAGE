@@ -4,18 +4,20 @@ $colorb: #17307A
 $colorw: #fff
 $colorg: #B5B5B5
 $colorbl: #000
+$colorda: #212529
 $h1: 2rem
 $n1: 1.3rem
-$n2: 1.1rem
+$n2: 1rem
 $m1: 0.9rem
 $f1: 0.8rem
 
 body
     font-family: $font-wanted
     //font-size: $m1
-    background-color: $colorb
+    background-color: $colorda
     animation-duration: 1s
     animation-name: fade-in
+    color: $colorw
 
 @keyframes fade-in
     from
@@ -25,20 +27,25 @@ body
         opacity: 1
 
 .logo
-    width: 11rem
-    margin-top: 3.5rem
-    margin-bottom: 3rem
+    width: 7em
+    
+    //margin-top: 3.5rem
+    //margin-bottom: 3rem
 
 #navmenu
-    background-color: $colorw
-    border: 1px solid $colorb
-    border-radius: 20px
+    //border: 1px solid $colorb
+    //border-radius: 20px
     padding: 1rem
     font-weight: 600
     font-size: $m1
     letter-spacing: -0.05rem
+    
 .nav
     --bs-nav-link-padding-x: 0.4rem
+    
+
+
+
 
 a:link, a:hover, a:visited
     color: $colorb
@@ -182,13 +189,14 @@ hr
     opacity: 100%
 
 .dropdown-menu
-    color: $colorb
+    color: $colorg
     font-size: $m1
+        background-color: $colorda
 
 .dropdown-item:active
-    color: $colorw
+    color: $colorda
     text-decoration: none
-    background-color: $colorb
+    background-color: $colorw
 
 .h1, .h2, .h3, .h4, .h5, .h6
     margin-bottom: .2rem
@@ -205,19 +213,29 @@ footer
     color: $colorw
     font-size: $f1
 
-@media (min-width: 1000px)
-    .container-fluid
-        width: 75%
-        font-size: $n1
+#bdark
+    color: $colorw
 
-    #navmenu
-        font-size: $n1
+#bdark2
+    color: $colorda
 
-    .nav
-        --bs-nav-link-padding-x: 1rem
 
-    .dropdown-menu
-        font-size: $n1
 
-    #recruit
-        width: 50%
+@media (min-width: 1200px) 
+    .container
+        width: 80%
+    
+
+@media (min-width: 992px) 
+    .container
+         width: 80%
+    
+
+@media (min-width: 768px) 
+    .container
+         width: 80%
+    
+
+@media (min-width: 576px) 
+    .container
+         width: 80%

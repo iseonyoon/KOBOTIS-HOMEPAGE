@@ -1,8 +1,9 @@
 body {
   font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  background-color: #17307A;
+  background-color: #212529;
   animation-duration: 1s;
   animation-name: fade-in;
+  color: #fff;
 }
 
 @keyframes fade-in {
@@ -14,15 +15,10 @@ body {
   }
 }
 .logo {
-  width: 11rem;
-  margin-top: 3.5rem;
-  margin-bottom: 3rem;
+  width: 7em;
 }
 
 #navmenu {
-  background-color: #fff;
-  border: 1px solid #17307A;
-  border-radius: 20px;
   padding: 1rem;
   font-weight: 600;
   font-size: 0.9rem;
@@ -71,7 +67,7 @@ i {
 
 #t1 {
   color: #000;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #info {
@@ -118,7 +114,7 @@ i {
 }
 
 #recruit {
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 80%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -206,14 +202,15 @@ hr {
 }
 
 .dropdown-menu {
-  color: #17307A;
+  color: #B5B5B5;
   font-size: 0.9rem;
+  font-size-background-color: #212529;
 }
 
 .dropdown-item:active {
-  color: #fff;
+  color: #212529;
   text-decoration: none;
-  background-color: #17307A;
+  background-color: #fff;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -234,22 +231,32 @@ footer {
   font-size: 0.8rem;
 }
 
-@media (min-width: 1000px) {
-  .container-fluid {
-    width: 75%;
-    font-size: 1.3rem;
+#bdark {
+  color: #fff;
+}
+
+#bdark2 {
+  color: #212529;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
   }
-  #navmenu {
-    font-size: 1.3rem;
+}
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
   }
-  .nav {
-    --bs-nav-link-padding-x: 1rem;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
   }
-  .dropdown-menu {
-    font-size: 1.3rem;
-  }
-  #recruit {
-    width: 50%;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 80%;
   }
 }
 
