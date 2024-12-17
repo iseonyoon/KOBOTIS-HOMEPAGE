@@ -48,20 +48,14 @@ i {
 #twins1 {
   background-color: #fff;
   border: 1px solid #17307A;
-  border-radius: 20px;
   padding: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  color: #17307A;
+  color: #000;
 }
 
 #twins2 {
   background-color: #fff;
   border: 1px solid #17307A;
-  border-radius: 20px;
   padding: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
   color: #17307A;
 }
 
@@ -251,12 +245,12 @@ footer {
 }
 @media (min-width: 768px) {
   .container {
-    width: 80%;
+    width: 900%;
   }
 }
 @media (min-width: 576px) {
   .container {
-    width: 80%;
+    width: 100%;
   }
 }
 
