@@ -30,12 +30,14 @@
     href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css" />
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css" />
+  <!--aos-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body style="overflow-x: hidden">
 
 
-
+  <!-- nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div id="navmenu" class="container">
       <a class="navbar-brand" href="#">
@@ -65,10 +67,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a id="bdark" class="nav-link" href="#">마인드시티</a>
+            <a id="bdark" class="nav-link" href="#">마인드시티<i class="bi bi-arrow-up-right"></i></a>
           </li>
           <li class="nav-item">
-            <a id="bdark" class="nav-link" href="#">스텝투코리아</a>
+            <a id="bdark" class="nav-link" href="#">스텝투코리아<i class="bi bi-arrow-up-right"></i></a>
           </li>
           <li class="nav-item">
             <a id="bdark" class="nav-link" href="#">인재채용</a>
@@ -79,128 +81,431 @@
     </div>
   </nav>
 
+  <!-- end of nav -->
 
 
-  <div class="container" ><div class="row">
-    <div id="mtop" class="col">
-      s
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
     </div>
-    <div id="mtop" class="col">
-      s
 
-    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/33.png" alt="Los Angeles" class="d-block w-100" />
 
-  </div></div>
+        <div class="carousel-caption">
+          <h1 id="ctitle" class="fw-bolder">일상을 바꾸는 기술, 삶을 돌보는 케어</h2>
+            <p id="ctext"> 멘탈 케어와 스마트 헬스케어 솔루션으로 스트레스를 완화하고, 더 나은 일상을 만들어 갑니다.</p>
+        </div>
 
-
-  <div class="container" >
-  <div class="row">
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
       </div>
+      <div class="carousel-item">
+        <img src="assets/img/22.png" alt="Chicago" class="d-block w-100" />
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/Rectangle 1.png" alt="Los Angeles" class="d-block w-100" />
-          <div class="carousel-caption">
-            <h4>일상을 바꾸는 기술, 삶을 돌보는 케어</h4>
-            <p> 멘탈 케어와 스마트 헬스케어 솔루션으로 스트레스를 완화하고, 더 나은 일상을 만들어 갑니다.</p>
-          </div>
+        <div class="carousel-caption">
+          <h1 id="ctitle" class="fw-bolder">미래를 향한 혁신, K-CYBER CITY</h2>
+            <p id="ctext">AI 로봇과 혁신적인 기술로 사이버 미래 도시를 구상하며, 세계를 연결하는 새로운 가치를 제공합니다.</p>
         </div>
-        <div class="carousel-item">
-          <img src="assets/img/Rectangle 1.png" alt="Chicago" class="d-block w-100" />
-          <div class="carousel-caption">
-            <h4>미래를 향한 혁신, K-CYBER CITY</h4>
-            <p>AI 로봇과 혁신적인 기술로 사이버 미래 도시를 구상하며, 세계를 연결하는 새로운 가치를 제공합니다.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/Rectangle 1.png" alt="New York" class="d-block w-100" />
-          <div class="carousel-caption">
-            <h4>따뜻한 기술로 만들어가는 밝은 사회</h4>
-            <p>코보티스는 인간 존엄을 중심으로 기술과 삶의 조화를 이루며, 모두가 공존할 수 있는 세상을 꿈꿉니다.</p>
-          </div>
-        </div>
+
       </div>
+      <div class="carousel-item">
+        <img src="assets/img/55.png" alt="New York" class="d-block w-100" />
 
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+        <div class="carousel-caption">
+          <h1 id="ctitle" class="fw-bolder">따뜻한 기술로 만들어가는 밝은 사회</h1>
+          <p id="ctext">코보티스는 인간 존엄을 중심으로 기술과 삶의 조화를 이루며, 모두가 공존할 수 있는 세상을 꿈꿉니다.</p>
+        </div>
+
+      </div>
     </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
 
- 
+
+
   <!-- end of Carousel -->
-  <div class="container" >
-  <div class="row">
-    <div id="twins1" class="col">
-      <h5>MIND CITY</h5>
 
-      <p id="t1">특성별 패턴 분석 알고리즘이 적용된 미션 중심, 심리 케어 서비스.
 
-        AI 및 데이터 중심의 과학적 접근과 합리적 서비스 비용 실현.
 
-        사회적, 심리적 거부감을 최소화할 수 있는 비대면 심리케어 서비스.
 
-        치유 신뢰성을 확보할 수 있는 미션 중심의 과학적 접근을 통한 솔루션 및 DB 구축.
-
-        우울케어, 불안케어 및 Event 힐링 미션 제공.
-
-        재미있게 접근하는 콘텐츠 미션 중심의 힐링.케어 서비스</p>
-    </div>
-    <div id="twins2" class="col">
-      <h5>Step to Korea</h5>
-      <p id="t2">
-        스텝투코리아</p>
-    </div>
-  </div>
-  <div class="row">
-    <div id="info" class="col-md-12">svsvvsvv</div>
-  </div>
-
-  </div>
-  <footer>
+  <!-- app showcase -->
+  <div id="backcontainer2">
     <div class="container">
+      <div class="row">
+        <div id="mtop" class="col-md-8">
+          <div id="mtop1">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <img src="assets/img/appleicon.png" class="appleicon" alt="app store logo" />
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div id="mtop2">
+              <h1 id="ht" class="fw-bolder">MIND CITY<span class="badge text-bg-warning fs-6 fw-light">Update!</span>
+              </h1>
+              <h5>내 마음 받아주는 또 다른 세상, 마인드 시티</h5>
 
-    <div class="row">
-      <div id="add1" class="col-md-4">
-        <img src="assets/img/logo.svg" alt="kobotis logo" class="d-block w-25" /></br>
+            </div>
+          </div>
+          <div id="mtop3">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+              <div class="container" id="icon-grid">
+
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+                  <div class="col d-flex align-items-start">
+
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mb-4">🫶개인 맞춤형 심리 케어</h3>
+                      <p class="mb-4">AI와 특성 기반 알고리즘으로 내 마음에 딱 맞는 챌린지를 추천해드려요!
+                        내 심리 데이터를 꼼꼼히 관리하며, 믿을 수 있는 과학적 솔루션으로 마음 건강을 지켜드립니다.</p>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col d-flex align-items-start">
+
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mb-4">🏡온라인 비대면 서비스</h3>
+                      <p class="mb-4">합리적인 비용으로 누구나 쉽게 시작할 수 있어요!
+                        비대면 온라인 서비스로 집에서도, 어디서든 마음의 짐을 덜고 힐링할 수 있는 환경을 만들어드립니다. </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mb-4">🐇재밌는 힐링 콘텐츠</h3>
+                      <p class="mb-4">우울·불안 관리를 위한 맞춤형 챌린지부터 소소한 힐링 이벤트까지!
+                        재미있고 창의적인 콘텐츠로 마음의 안정과 성장, 두 마리 토끼를 잡아보세요.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <a href="https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B8%EB%93%9C%EC%8B%9C%ED%8B%B0-mindcity/id1663107997"><img src="assets/img/button-app-store-dark.png" class="appstoreicon" alt="apple app store logo" /></a>
+
+              <a href="https://play.google.com/store/apps/details?id=com.kobotis.mindcity&hl=ko"><img src="assets/img/button-google-play-dark.png" class="appstoreicon" alt="google app store logo" /></a>
+
+            </div>
+          </div>
+
+
+
+        </div>
+        <div id="mtopright" class="col-md-4 align-self-center">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+           
+            <img src="assets/img/MINDCITYMOCKUP2.png" class="mockup" alt="mind city mockup" />
+          </div>
+
+        </div>
+
       </div>
-      <div id="add1" class="col-md-4">
-        <p id="ft">코보티스</p>
-        대표자: 송수영</br>
-        사업자등록번호: 876-81-02137</br></br>
-        <p id="ft">주소</p>
-        본사: 대전시 유성구 대학로 99 산학연교육연구동 901호 A-10</br>
-        기업부설연구소: 대전시 유성구 유성대로 821번길 4-17 두공빌딩301호</br></br>
+    </div>
+  </div>
+
+  <!-- end of app showcase -->
+  <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+
+    <!-- app showcase2 -->
+    <div id="backcontainer3">
+      <div class="container">
+        <div class="row">
+          <div id="stepbox" class="col-md-12">
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <img src="assets/img/STKOREA_LOGO_s.png" class="steplogo" alt="Step to Korea Logo" />
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+              <div id="stepbox" class="col-md-12"></div>
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <h1 class="fw-bolder">Step to Korea<span class="badge text-bg-success fs-6 fw-light">New!</span></h1>
+              </div>
+
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <h5 class="text-center">
+                  여행지 추천부터 나만의 일정관리까지, 한곳에서 쉽고 편리하게!</h5>
+                <p id="colorg">취향에 딱 맞는 일정과 꿀팁 정보, 여행 준비는 여기서 끝!</p>
+              </div>
+            </div>
+
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <img src="assets/img/12333.png" class="stepimg" alt="Step to Korea Mock Up" />
+            </div>
+
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <img src="assets/img/button-app-store-dark.png" class="appstoreicon" alt="apple app store logo" />
+
+              <img src="assets/img/button-google-play-dark.png" class="appstoreicon" alt="google app store logo" />
+
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div id="add1" class="col-md-4">
-        <p id="ft">이메일</p>
-        kobotisco@gmail.com</br>
-        kobotis00@kobotis.com</br></br>
-        <p id="ft">전화번호</p>
-        HP: 010-3368-7072</br>
-        Tel: 042-716-0230</br>
-        FAX: 070-4808-1104
+    </div>
+  </div>
+
+  <!-- end of app showcase2 -->
+
+
+
+
+
+
+  <!-- service -->
+
+  <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+    <div id="backcontainer1">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+      </div>
+      <div id="backcontainer1" class="container">
+        <div class="row">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <h3 id="centerh1" class="text-center">
+              서비스</h3>
+          </div>
+          <div id="mtop" class="row">
+            <div class="col-md-6 g-4">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="card text-bg-dark">
+                  <img src="./assets/img/mindback.png" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+
+                    <h2 id="cardtext1" class="card-title d-flex justify-content-center fw-bolder">MIND CITY</h2>
+                    <p id="cardtext2" class="card-text d-flex justify-content-center"> </p>
+                    <center id="center">
+                      <a href="./assets/img/MindCity_.mp4" > <img src="./assets/img/cta-3-image-1.png" id="cardtext"  class="card-img w-25" alt="..."></a>
+                    </center>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+            <div class="col-md-6 g-4">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <a href="https://steptokorea.com/ko"><div class="card text-bg-dark">
+                  <img src="./assets/img/123.png" class="card-img">
+                  <div class="card-img-overlay">
+
+                    <h2 id="cardtext1" class="card-title d-flex justify-content-center fw-bolder" style="color: #212529;">Step to Korea</h2>
+                    <p id="cardtext2" class="card-text d-flex justify-content-center"> </p>
+                    <center id="center">
+                      <!-- <img src="./assets/img/cta-3-image-1.png" id="cardtext"  class="card-img w-25" alt="...">-->
+                    </center>
+                  </div>
+                  </div></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- end of service -->
+
+
+
+
+
+
+  <!-- map-->
+
+  <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+    <div id="backcontainer3">
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div id="rtext">
+            <h3 id="centerh1" class="text-center">
+              찾아오시는 길</h3>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <iframe id="frs"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.7841340565487!2d127.33559027625458!3d36.366007292053965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654b753d85dc41%3A0x29d2222fc42eb52!2s301%ED%98%B8%2C%204-17%20Yuseong-daero%20821beon-gil%2C%20Yuseong%20District%2C%20Daejeon!5e0!3m2!1sen!2skr!4v1734402268134!5m2!1sen!2skr"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!--<div id="recruit" class="row">
+              <div id="mmm" class="col-md-4">
+
+                  <a href="https://naver.me/GzEIx1At">
+                      
+                      <button type="button" class="btn"><i id="ic" class="bi bi-geo-alt-fill"></i><p>네이버 지도</p></button> 
+                  </a>
+              </div>
+              <div id="mmm" class="col-md-4">
+                  <a href="https://kko.kakao.com/lYZLu-y4J9">
+                      <button type="button" class="btn"><i id="ic" class="bi bi-geo-alt-fill"></i><p>카카오 지도</p></button> 
+                  </a>
+              </div>
+              <div id="mmm" class="col-md-4">
+                  <a href="https://maps.app.goo.gl/JEELwDEK1QTpfe8k9">
+                      <button type="button" class="btn"><i id="ic" class="bi bi-geo-alt-fill"></i><p>구글 지도</p></button> 
+                  </a>
+              </div>
+          </div>-->
+
+
+
+
+
+
+
+            <div class="container">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="row">
+                  <div class="accordion accordion-flush bg-dark" data-bs-theme="dark" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          주소
+                        </button>
+
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <div class="card-footer">
+                              <small class="text-body-secondary"> <span id="subt">본사</span>
+                                <p id="hp">대전시 유성구 대학로 99 산학연교육연구동 901호 A-10</p>
+                                <span id="subt">기업부설연구소</span>
+                                <p id="hp">대전시 유성구 유성대로 821번길 4-17 두공빌딩301호</p>
+                              </small>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          연락처
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <div class="card-footer">
+                            <small class="text-body-secondary"> <span id="subt">HP</span>
+                              <p id="hp">010-3368-7072</p>
+                              <span id="subt">Tel</span>
+                              <p id="hp">042-716-0230</p>
+                              <span id="subt">FAX</span>
+                              <p id="hp">070-4808-1104</p>
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          이메일
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <div class="card-footer">
+                            <small class="text-body-secondary">
+                              <p id="hp">kobotisco@gmail.com</p>
+                              <p id="hp">kobotis00@kobotis.com</p>
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
       </div>
     </div>
 
-    </div></div>
-  </footer>
-  </div></div>
+    <!-- end of map -->
 
 
+
+
+    <footer id="foo">
+      <div class="container">
+
+        <div class="row">
+          <div id="add1" class="col-md-12">
+              <img src="assets/img/logo.svg" id="foologo" alt="kobotis logo" class="d-block" /></br>
+          </div>
+          <div id="add1" class="col-md-6">
+              <p id="ft">코보티스</p>
+              대표자: 송수영</br>
+              사업자등록번호: 876-81-02137</br></br>
+              <p id="ft">주소</p>
+              본사: 대전시 유성구 대학로 99 산학연교육연구동 901호 A-10</br>
+              기업부설연구소: 대전시 유성구 유성대로 821번길 4-17 두공빌딩301호</br></br>
+          </div>
+          <div id="add1" class="col-md-6">
+              <p id="ft">이메일</p>
+              kobotisco@gmail.com</br>
+              kobotis00@kobotis.com</br></br>
+              <p id="ft">전화번호</p>
+              HP: 010-3368-7072</br>
+              Tel: 042-716-0230</br>
+              FAX: 070-4808-1104
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+  </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -5,9 +5,11 @@ $colorw: #fff
 $colorg: #B5B5B5
 $colorbl: #000
 $colorda: #212529
-$h1: 2rem
-$n1: 1.3rem
-$n2: 1rem
+$colorda2: #1b1b1b
+$colorlg: #3a3a3a
+$h1: 2.6rem
+$n1: 1.4rem
+$n2: 1.1rem
 $m1: 0.9rem
 $f1: 0.8rem
 
@@ -27,25 +29,51 @@ body
         opacity: 1
 
 .logo
-    width: 7em
-    
+    width: 8em
     //margin-top: 3.5rem
     //margin-bottom: 3rem
 
+#cardtext
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+#cardtext1
+    margin-top: 1rem
+
+#cardtext2
+    text-align: center
+
+#stepbox
+
+    margin-top: 3rem
+    margin-bottom: 3rem
+    text-align: center
+
+.steplogo
+    width: 6rem
+
+.stepimg
+    width: 15rem
+    margin-bottom: 3rem
+
+#center
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+    
 #navmenu
     //border: 1px solid $colorb
     //border-radius: 20px
     padding: 1rem
     font-weight: 600
-    font-size: $m1
-    letter-spacing: -0.05rem
-    
+    font-size: $n2
+
 .nav
     --bs-nav-link-padding-x: 0.4rem
-    
-
-
-
 
 a:link, a:hover, a:visited
     color: $colorb
@@ -65,7 +93,6 @@ i
     border: 1px solid $colorb
     padding: 1.5rem
 
-  
     color: $colorbl
 
 #twins2
@@ -73,13 +100,11 @@ i
     border: 1px solid $colorb
     padding: 1.5rem
 
-
     color: $colorb
 
 #t1
     color: #000
-    font-size: $n2    
-
+    font-size: $n2
 
 #info
     background-color: $colorw
@@ -102,18 +127,21 @@ i
 #hp
 
     font-size: $n1
+    color: $colorw
 #hm
     font-size: $m1
     color: $colorg
+
+#ht
+    font-size: $h1
 
 #histext
     margin-top: 3rem
     margin-bottom: 3rem
 
-
 #subt
     font-size: $m1
-    color: $colorb
+    color: $colorg
     font-weight: 700
 
 #recruit
@@ -145,20 +173,20 @@ i
 #ic
     color: $colorb
 #frs
-     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px
-     border-radius: 20px
-     margin-top: 1rem
-     margin-bottom: 1rem
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px
+
+    margin-top: 3rem
+    margin-bottom: 3rem
 p
     margin-bottom: 0.2rem
 
 .btn:hover
-   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,  7px 7px 20px 0px #0002,  4px 4px 5px 0px #0001
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001
 
 hr
-    height: 10px
+    height: 15px
     border: 0
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.515) inset
+    box-shadow: 0 15px 15px -10px rgba(132, 132, 132, 0.515) inset
 
 
 .card
@@ -170,14 +198,31 @@ hr
     background-color: $colorw
 
 
-.accordion-button:not(.collapsed) 
-    color: $colorb
-    background-color:  #fff9
-    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)
-.accordion
-    --bs-accordion-active-bg: #fff9
+    
+
+
+.card-footer
+    background-color: $colorda
+
+
+#mtop2
+    color: $colorbl
+#mtop3
+    color: $colorlg
+
+#colorg
+    color: $colorg
+    
 .carousel-caption
-    color: $colorb
+    color: $colorw
+
+#ctitle
+    font-size: 1.4rem
+#ctext
+    font-size: 1rem
+
+
+
 .carousel-indicators [data-bs-target]
     width: 0.5rem
     background-color: $colorg
@@ -188,8 +233,8 @@ hr
 
 .dropdown-menu
     color: $colorg
-    font-size: $m1
-        background-color: $colorda
+    font-size: $n2
+    background-color: $colorw
 
 .dropdown-item:active
     color: $colorda
@@ -200,12 +245,17 @@ hr
     margin-bottom: .2rem
     line-height: 1
 
-footer
+#foo
+    margin-top: 3rem
+    margin-bottom: 6rem
     text-align: left
     font-weignt: 100
     color: $colorg
-    margin: 5rem 0rem 2rem 0rem
     font-size: $m1
+
+#foologo
+    width: 16rem
+    margin-bottom: 3rem
 
 #ft
     color: $colorw
@@ -217,23 +267,99 @@ footer
 #bdark2
     color: $colorda
 
+.appleicon
+    width: 6rem
+
+.appstoreicon
+    margin-top: 1rem
+    height: 4rem
+    margin-right: 0.5rem
+
+#mtop
+    margin-top: 3rem
+    margin-bottom: 3rem
+
+#mtoprignt
+    margin-top: 3rem
+    margin-bottom: 3rem
+    
+
+#mtop2
+    margin-top: 2rem
+    margin-bottom: 2rem
+
+.mockup
+    width: 14em
+    float: left
+    position: bottom
+
+#n2
+    font-size: $n1
+    font-weight: 100
+
+#backcontainer1
+    background-color: $colorda2
+    padding-top: 4rem
+    padding-bottom: 4rem
+
+#backcontainer2
+    background-color: #f1f1f1
+    padding-top: 4rem
+    padding-bottom: 4rem
+
+#backcontainer3
+    background-color: $colorda
+    padding-top: 4rem
+    padding-bottom: 4rem
 
 
-@media (min-width: 1200px) 
+
+
+
+@media (min-width: 1200px)
     .container
         width: 80%
-    
 
-@media (min-width: 992px) 
-    .container
-         width: 80%
-    
+    #ctitle
+        font-size: 6rem
+    #ctext
+        font-size: 3em
 
-@media (min-width: 768px) 
-    .container
-         width: 900%
-    
+    .stepimg
+        width: 70rem
 
-@media (min-width: 576px) 
+@media (min-width: 992px)
     .container
-         width: 100%
+        width: 80%
+    .mockup
+        width: 14rem
+        float: right
+        position: bottom
+    #ctitle
+        font-size: 4rem
+    #ctext
+        font-size: 2rem
+    .stepimg
+        width: 50rem
+
+
+
+
+@media (min-width: 768px)
+    .container
+        width: 900%
+
+    #ctitle
+        font-size: 3rem
+    #ctext
+        font-size: 1.5rem
+
+    .stepimg
+        width: 40rem
+
+@media (min-width: 576px)
+    .container
+        width: 100%
+
+    .stepimg
+        width: 30rem
