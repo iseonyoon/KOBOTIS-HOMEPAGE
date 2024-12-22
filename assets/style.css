@@ -54,6 +54,10 @@ body {
   align-items: center;
 }
 
+#centerh1 {
+  color: #fff;
+}
+
 #navmenu {
   padding: 1rem;
   font-weight: 600;
@@ -65,7 +69,11 @@ body {
 }
 
 a:link, a:hover, a:visited {
-  color: #17307A;
+  color: #3a3a3a;
+}
+
+#atext {
+  color: #B5B5B5;
 }
 
 i {
@@ -127,6 +135,21 @@ i {
   color: #fff;
 }
 
+#hp2 {
+  font-size: 1.4rem;
+  color: #212529;
+  margin-bottom: 2rem;
+}
+
+.forback {
+  background-image: url("../assets/img/1.png");
+  background-size: cover;
+}
+
+#hisicon {
+  width: 18rem;
+}
+
 #hm {
   font-size: 0.9rem;
   color: #B5B5B5;
@@ -137,14 +160,18 @@ i {
 }
 
 #histext {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #subt {
   font-size: 0.9rem;
-  color: #B5B5B5;
-  font-weight: 700;
+  color: #17307A;
+}
+
+#subt2 {
+  font-size: 0.9rem;
+  color: #fff;
 }
 
 #recruit {
@@ -152,28 +179,19 @@ i {
   width: 80%;
   margin: 0 auto;
   margin-top: 2rem;
+  color: #212529;
 }
 
 #rtext {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #212529;
 }
 
-.btn {
-  font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  padding: 10px 25px;
-  border: 1.5px solid #17307A;
-  border-radius: 12px;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  color: #17307A;
-  margin-bottom: 0.5rem;
+#rtext2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
 }
 
 #ic {
@@ -190,14 +208,14 @@ p {
   margin-bottom: 0.2rem;
 }
 
-.btn:hover {
-  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.6), -4px -4px 5px 0px rgba(255, 255, 255, 0.6), 7px 7px 20px 0px rgba(0, 0, 0, 0.1333333333), 4px 4px 5px 0px rgba(0, 0, 0, 0.0666666667);
+hr {
+  height: 20px;
+  border: 0;
+  box-shadow: 0 15px 15px -10px rgba(98, 98, 98, 0.515) inset;
 }
 
-hr {
-  height: 15px;
-  border: 0;
-  box-shadow: 0 15px 15px -10px rgba(132, 132, 132, 0.515) inset;
+.vision {
+  padding-bottom: 6rem;
 }
 
 .card {
@@ -266,7 +284,7 @@ hr {
 }
 
 #foo {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 6rem;
   text-align: left;
   font-weignt: 100;
@@ -358,6 +376,10 @@ hr {
   }
   .stepimg {
     width: 70rem;
+  }
+  #recruit {
+    font-size: 1.4rem;
+    width: 50%;
   }
 }
 @media (min-width: 992px) {
