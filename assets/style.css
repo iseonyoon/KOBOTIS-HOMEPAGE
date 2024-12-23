@@ -58,6 +58,14 @@ body {
   color: #fff;
 }
 
+#map {
+  margin-top: 3rem;
+}
+
+#experticon {
+  width: 6rem;
+}
+
 #navmenu {
   padding: 1rem;
   font-weight: 600;
@@ -72,8 +80,17 @@ a:link, a:hover, a:visited {
   color: #3a3a3a;
 }
 
+a:hover, a:visited {
+  font-weight: 600;
+}
+
 #atext {
   color: #B5B5B5;
+}
+
+#atext:hover {
+  color: #fff;
+  font-weight: 600;
 }
 
 i {
@@ -126,10 +143,6 @@ i {
   text-align: center;
 }
 
-.map {
-  margin: 0 auto;
-}
-
 #hp {
   font-size: 1.4rem;
   color: #fff;
@@ -139,15 +152,6 @@ i {
   font-size: 1.4rem;
   color: #212529;
   margin-bottom: 2rem;
-}
-
-.forback {
-  background-image: url("../assets/img/1.png");
-  background-size: cover;
-}
-
-#hisicon {
-  width: 18rem;
 }
 
 #hm {
@@ -310,6 +314,23 @@ hr {
   color: #212529;
 }
 
+.badge {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.badge:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin: auto;
+}
+
 .appleicon {
   width: 6rem;
 }
@@ -360,6 +381,12 @@ hr {
 
 #backcontainer3 {
   background-color: #212529;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#backcontainer4 {
+  background-color: #2A323B;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
