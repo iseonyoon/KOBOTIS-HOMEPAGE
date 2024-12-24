@@ -20,8 +20,9 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-  <!-- icon -->
+  <!-- css -->
   <link href="assets/style.css" rel="stylesheet" type="text/css" />
+  <!-- icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <!-- wanted sans -->
@@ -100,7 +101,8 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="assets/img/33.png" alt="Los Angeles" class="d-block w-100" />
+        <img src="assets/img/p3.jpg" alt="Los Angeles" class="d-block w-100" />
+
 
         <div class="carousel-caption">
           <h1 id="ctitle" class="fw-bolder">일상을 바꾸는 기술, 삶을 돌보는 케어</h2>
@@ -109,7 +111,7 @@
 
       </div>
       <div class="carousel-item">
-        <img src="assets/img/22.png" alt="Chicago" class="d-block w-100" />
+        <img src="assets/img/p3.jpg" alt="Chicago" class="d-block w-100" />
 
         <div class="carousel-caption">
           <h1 id="ctitle" class="fw-bolder">미래를 향한 혁신, K-CYBER CITY</h2>
@@ -118,7 +120,7 @@
 
       </div>
       <div class="carousel-item">
-        <img src="assets/img/55.png" alt="New York" class="d-block w-100" />
+        <img src="assets/img/p3.jpg" alt="New York" class="d-block w-100" />
 
         <div class="carousel-caption">
           <h1 id="ctitle" class="fw-bolder">따뜻한 기술로 만들어가는 밝은 사회</h1>
@@ -296,21 +298,21 @@
       <div id="backcontainer4" class="container">
         <div class="row">
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <h3 id="centerh1" class="text-center">
-              서비스</h3>
+            <h1 id="centerh1" class="text-center fw-bolder">
+              서비스</h1>
           </div>
           <div id="mtop" class="row">
             <div class="col-md-6 g-4">
               <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <div class="card text-bg-dark">
                   <img src="./assets/img/mindback.png" class="card-img" alt="...">
-                  <div class="card-img-overlay">
+                  <div class="card-img-overlay ">
 
                     <h2 id="cardtext1" class="card-title d-flex justify-content-center fw-bolder">MIND CITY</h2>
-                    <p id="cardtext2" class="card-text d-flex justify-content-center"> </p>
-                    <center id="center">
-                      <a href="./assets/img/MindCity_.mp4"> <img src="./assets/img/cta-3-image-1.png" id="cardtext"
-                          class="card-img w-25" alt="..."></a>
+                    <p id="cardtext2" class="card-text d-flex justify-content-center "> </p>
+                    <center id="center ">
+                      <img src="./assets/img/cta-3-image-1.png" id="cardtext" class="card-img w-25 cursor-pointer "
+                        alt="..." data-bs-toggle="modal" data-bs-target="#imageModal">
                     </center>
 
                   </div>
@@ -363,8 +365,8 @@
         <div class="col-md-12">
 
           <div id="rtext">
-            <h3 id="centerh1" class="text-center">
-              찾아오시는 길</h3>
+            <h1 id="centerh1" class="text-center fw-bolder">
+              찾아오시는 길</h1>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
               <iframe id="frs"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.7841340565487!2d127.33559027625458!3d36.366007292053965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654b753d85dc41%3A0x29d2222fc42eb52!2s301%ED%98%B8%2C%204-17%20Yuseong-daero%20821beon-gil%2C%20Yuseong%20District%2C%20Daejeon!5e0!3m2!1sen!2skr!4v1734402268134!5m2!1sen!2skr"
@@ -556,7 +558,23 @@
 
 
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark fs-5" id="imageModalLabel">MIND CITY</h5>
+            <button type="button" class="btn-close  text-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center text-dark">
+            <video controls autoplay="autoplay">
+              <source src="./assets/img/MindCity_.mp4" type="video/webm" />
+            </video>
 
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- aos map -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

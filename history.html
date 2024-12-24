@@ -40,55 +40,52 @@
 
 <body style="overflow-x: hidden">
 
+   <!-- nav -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div id="navmenu" class="container">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source srcset="assets/img/logo.svg" type="image/svg+xml" />
+          <img src="assets/img/logo.svg" class="logo" alt="kobotis logo" />
+        </picture>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div id="navmenu" class="container">
-            <a class="navbar-brand" href="index.html">
-                <picture>
-                    <source srcset="assets/img/logo.svg" type="image/svg+xml" />
-                    <img src="assets/img/logo.svg" class="logo" alt="kobotis logo" />
-                </picture>
+        <ul class="navbar-nav d-flex justify-content-center">
+          <li class="nav-item dropdown">
+            <a id="bdark" class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdownMenuLink"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              코보티스
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a id="bdark2" class="dropdown-item" href="history.html">회사소개</a></li>
+              <li><a id="bdark2" class="dropdown-item" href="history.html#kobotishistory">회사연혁</a></li>
+              <li><a id="bdark2" class="dropdown-item" href="expert.html">참여전문가</a></li>
+              <hr class="dropdown-divider">
+              <li><a id="bdark2" class="dropdown-item" href="#centerh1">찾아오시는 길</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a id="bdark" class="nav-link" href="mindcity.html">마인드시티<i class="bi bi-arrow-up-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a id="bdark" class="nav-link" href="https://steptokorea.com/ko">스텝투코리아<i
+                class="bi bi-arrow-up-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a id="bdark" class="nav-link" href="recruit.html">인재채용</a>
+          </li>
 
-                <ul class="navbar-nav d-flex justify-content-center">
-                    <li class="nav-item dropdown">
-                        <a id="bdark" class="nav-link dropdown-toggle" aria-current="page" href="#"
-                            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            코보티스
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a id="bdark2" class="dropdown-item" href="history.html">회사소개</a></li>
-                            <li><a id="bdark2" class="dropdown-item" href="history.html#kobotishistory">회사연혁</a></li>
-                            <li><a id="bdark2" class="dropdown-item" href="expert.html">참여전문가</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a id="bdark2" class="dropdown-item" href="index.html#centerh1">찾아오시는 길</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a id="bdark" class="nav-link"
-                            href="https://play.google.com/store/apps/details?id=com.kobotis.mindcity&pcampaignid=web_share">마인드시티<i
-                                class="bi bi-arrow-up-right"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="bdark" class="nav-link" href="https://steptokorea.com/ko">스텝투코리아<i
-                                class="bi bi-arrow-up-right"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="bdark" class="nav-link" href="recruit.html">인재채용</a>
-                    </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- end of nav -->
+  <!-- end of nav -->
 
 
     <!-- hero -->
@@ -119,7 +116,7 @@
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div id="backcontainer2">
             <div class="container px-4 py-5" id="custom-cards">
-                <h1 class="display-6 pb-2 text-dark fw-bolder">Overview</h1>
+                <h1 class="display-6 pb-2 text-dark fw-bolder text-center">Overview</h1>
 
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -130,7 +127,7 @@
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-5 shadow-lg"
                                 style="background-image: url('assets/img/ceo.jpg'); background-size:cover;">
                                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    
+
                                     <ul class="d-flex list-unstyled mt-auto">
                                         <li class="me-auto">
                                             <p>코보티스의 대표는 항공기와 자동차 분야에서 선행 개발을 이끌어온 엔지니어 출신으로, 기술뿐만 아니라 정신 건강과 인간 존엄에 깊은
@@ -140,7 +137,8 @@
                                                 보다 가치 있는 삶을 함께 만들어갈 열정 넘치는 젊은 인재들을 기다리고 있습니다.</p>
                                         </li>
 
-                                    </ul><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CEO</h3>
+                                    </ul>
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CEO</h3>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +149,7 @@
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-5 shadow-lg"
                                 style="background-image: url('assets/img/vision.png');">
                                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    
+
                                     <ul class="d-flex list-unstyled mt-auto">
                                         <li class="me-auto">
                                             <p>다가오는 미래, 사이버 세상과 인공지능 로봇이 공존하는 시대에 대한 우려의 목소리가 높아지고 있습니다. 코보티스는 이러한 흐름
@@ -162,7 +160,8 @@
                                                 세계를
                                                 선도하는 허브로 성장하고자 합니다. 기술과 사람이 함께 만드는 더 나은 미래, 코보티스가 앞장서겠습니다.</p>
                                         </li>
-                                    </ul><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">VISION</h3>
+                                    </ul>
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">VISION</h3>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +172,7 @@
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-5 shadow-lg"
                                 style="background-image: url('assets/img/service.png');">
                                 <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                    
+
                                     <ul class="d-flex list-unstyled mt-auto">
                                         <li class="me-auto">
                                             <p>코보티스는 우울과 불안 케어 서비스를 시작으로, 미션과 콘텐츠 기반의 인공지능이 함께하는 멘탈 케어 플랫폼 ‘마인드시티’를
@@ -182,7 +181,8 @@
 
                                                 사람들의 마음을 돌보고 삶을 풍요롭게 만드는 코보티스의 여정을 함께하세요.</p>
                                         </li>
-                                    </ul><h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SERVICE</h3>
+                                    </ul>
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SERVICE</h3>
                                 </div>
                             </div>
                         </div>
@@ -206,78 +206,67 @@
             <!-- Title -->
             <div class="flex flex-col items-center text-left">
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <h2 class="text-3xl font-bold md:text-5xl text-left	">코보티스 팀</h2>
+                    <h4 class="text-5xl font-bold md:text-5xl text-left	">코보티스 팀</h4>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <p class="mb-8 mt-4 max-w-xl text-base text-neutral-200 md:mb-12 md:text-lg lg:mb-16"> 글자크기를 보기 위한 테스트 문장 </p>
+                    <p class="mb-8 mt-4 max-w-xl text-base text-neutral-200 md:mb-12 md:text-lg lg:mb-16"> 글자크기를 보기 위한
+                        테스트 문장 </p>
                 </div>
             </div>
             <!-- Features Content -->
             <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6">
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10 ">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Support</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">CEO</h3>
+                        <p class="text-base text-neutral-300">비전과 방향을 제시하며 코보티스를 이끄는 리더십의 중심</p>
                     </div>
                 </div>
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Organise</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">미션개발</h3>
+                        <p class="text-base text-neutral-300"> 혁신적인 아이디어로 코보티스의 핵심 미션을 설계</p>
                     </div>
                 </div>
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Flexibility</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">사업기획</h3>
+                        <p class="text-base text-neutral-300"> 성장을 위한 전략과 기회를 창출 </p>
                     </div>
                 </div>
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Speed</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">디자인</h3>
+                        <p class="text-base text-neutral-300"> 창의적 디자인으로 기술과 사람을 연결 </p>
                     </div>
                 </div>
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Quality</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">소프트웨어 개발</h3>
+                        <p class="text-base text-neutral-300">완벽한 사용자 경험을 위해 코보티스의 소프트웨어를 구현하는 전문가 </p>
                     </div>
                 </div>
                 <!-- Features Item -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <div class="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
+                    <div class="grid gap-6 rounded-5 border border-solid border-gray-300 p-8 md:p-10">
                         <img src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
                             alt="" class="inline-block h-16 w-16 object-cover rounded-full " />
-                        <h3 class="text-xl font-semibold">Resource</h3>
-                        <p class="text-base text-neutral-300"> Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                            aliquam,
-                            purus sit. </p>
+                        <h3 class="text-2xl font-semibold">하드웨어 개발</h3>
+                        <p class="text-base text-neutral-300"> 기술의 혁신을 현실로 만드는 코보티스의 엔지니어링 파워 </p>
                     </div>
                 </div>
             </div>
@@ -289,105 +278,165 @@
 
 
 
-<!--- history -->   
- <div id="kobotishistory">
+    <!--- history -->
+    <div id="kobotishistory">
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div id="backcontainer2" class="forback">
                 <div id="forback">
                     <div class="container text-left">
                         <div class="row">
-                       
 
-    <!-- Container -->
-    <div class="mx-auto w-full max-w-7xl mt-20 mb-20">
-      <!-- Title --><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <h1 class="text-5xl md:text-5xl font-bold mb-2 text-gray-950">회사 연혁</h1></div>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2"> 2025.06 </div>
-        <div class="text-gray-700 md:col-span-5">미션포털 서비스 '미션시티' 런칭 예정</div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"></div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2"> 2024.11 </div>
-        <div class="text-gray-700 md:col-span-5"> 국내 방문 외국인용 문화.힐링 서비스 'StepToKorea' 런칭 및 완료 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"> 2025. 03. 25 </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2"> 2024.08 </div>
-        <div class="text-gray-700 md:col-span-5">창업기술개발사업 디딤돌 도약, 글로벌 R&D 선정</div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2"> 2024.08 </div>
-        <div class="text-gray-700 md:col-span-5"> 마인드시티 런칭 및 멘탈케어 전문화 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"> 대대적인 디자인 및 서비스 리뉴얼 </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2024.05</div>
-        <div class="text-gray-700 md:col-span-5"> 디딤돌 R&D 정부지원사업 완료 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 ">
-        <div class="font-semibold text-gray-950 md:col-span-2 ">2024.03</div>
-        <div class="text-gray-700 md:col-span-5 "> 본사 이전 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"> 대전시 유성구 대학로 99 산학연교육연구동 901호 A-10 </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2"></div>
-        <div class="text-gray-700 md:col-span-5"> 기업부설연구소 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"> 대전시 유성구 유성대로 821번길 4-17 두공빌딩 301호 </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2024.01</div>
-        <div class="text-gray-700 md:col-span-5"> 벤쳐기업 인증 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2023.07</div>
-        <div class="text-gray-700 md:col-span-5"> 사무실 이전 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer"> 대전시 유성구 유성대로 821번길 4-17 두공빌딩 301호 </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2023.06</div>
-        <div class="text-gray-700 md:col-span-5"> 어플리케이션 '미션시티' 런칭 : 미션 중심 심리케어 서비스 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2023.05</div>
-        <div class="text-gray-700 md:col-span-5"> R&D 디딤돌 선정 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2022.01</div>
-        <div class="text-gray-700 md:col-span-5">기업부설 연구소 설립 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2021.10</div>
-        <div class="text-gray-700 md:col-span-5"> 어플리케이션 '이별터치' 테스트 버전 MVP 개발 </div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div><div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
-        <div class="font-semibold text-gray-950 md:col-span-2">2021.05</div>
-        <div class="text-gray-700 md:col-span-5"> 법인 전환 , 코보티스 주식회사 설립</div>
-        <div class="text-end text-blue-600 md:col-span-1 cursor-pointer">  </div>
-      </div></div>
-      
-    </div>
+
+                            <!-- Container -->
+                            <div class="mx-auto w-full max-w-7xl mt-20 mb-20">
+                                <!-- Title -->
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <h4 class="text-5xl md:text-5xl font-bold pb-5 text-gray-950 text-center mb-3">회사 연혁</h4>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2025.06 </div>
+                                        <div class="text-gray-700 md:col-span-4">미션포털 서비스 '미션시티' 런칭 예정</div>
+                                        <div class="text-end text-blue-600 md:col-span-3"></div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2024.12 </div>
+                                        <div class="text-gray-700 md:col-span-4"> 대한민국 혁신기업 최우수상 수상 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3 cursor-pointer">
+                                            <a href="#" class="text-primary" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal">
+                                                코어 이노베이션 어워즈(Core Innovation Awards)
+                                            </a>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2024.12 </div>
+                                        <div class="text-gray-700 md:col-span-4">자본금 증자 후 1.7억</div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> 2024년 12월10일자
+                                            기준
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2024.11 </div>
+                                        <div class="text-gray-700 md:col-span-4"> 국내 방문 외국인용 문화.힐링 서비스 'StepToKorea' 런칭
+                                            및 완료 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> 2025. 03. 25
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2024.08 </div>
+                                        <div class="text-gray-700 md:col-span-4">창업기술개발사업 디딤돌 도약, 글로벌 R&D 선정</div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"> 2024.08 </div>
+                                        <div class="text-gray-700 md:col-span-4"> 마인드시티 런칭 및 멘탈케어 전문화 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> 대대적인 디자인 및 서비스
+                                            리뉴얼 </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2024.05</div>
+                                        <div class="text-gray-700 md:col-span-4"> 디딤돌 R&D 정부지원사업 완료 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 ">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2024.03</div>
+                                        <div class="text-gray-700 md:col-span-4"> 본사 이전 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> 대전시 유성구 대학로 99
+                                            산학연교육연구동 901호 A-10 </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1"></div>
+                                        <div class="text-gray-700 md:col-span-4"> 기업부설연구소 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> 대전시 유성구 유성대로
+                                            821번길 4-17 두공빌딩 301호 </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2024.01</div>
+                                        <div class="text-gray-700 md:col-span-4"> 벤쳐기업 인증 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2023.07</div>
+                                        <div class="text-gray-700 md:col-span-4"> 사무실 이전 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3 "> 대전시 유성구 유성대로
+                                            821번길 4-17 두공빌딩 301호 </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2023.06</div>
+                                        <div class="text-gray-700 md:col-span-4"> 어플리케이션 '미션시티' 런칭 : 미션 중심 심리케어 서비스
+                                        </div>
+                                        <div class="text-end text-blue-600 md:col-span-3 "> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2023.05</div>
+                                        <div class="text-gray-700 md:col-span-4"> R&D 디딤돌 선정 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2022.01</div>
+                                        <div class="text-gray-700 md:col-span-4">기업부설 연구소 설립 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3 "> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2021.10</div>
+                                        <div class="text-gray-700 md:col-span-4"> 어플리케이션 '이별터치' 테스트 버전 MVP 개발 </div>
+                                        <div class="text-end text-blue-600 md:col-span-3 "> </div>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                                    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 py-7 border-b border-gray-300">
+                                        <div class="font-semibold text-gray-950 md:col-span-1">2021.05</div>
+                                        <div class="text-gray-700 md:col-span-4"> 법인 전환 , 코보티스 주식회사 설립</div>
+                                        <div class="text-end text-blue-600 md:col-span-3"> </div>
+                                    </div>
+                                </div>
 
                             </div>
 
                         </div>
 
-
-
                     </div>
+
+
+
                 </div>
             </div>
         </div>
     </div>
-<!--- end of history -->
+    </div>
+    <!--- end of history -->
 
 
 
@@ -458,6 +507,25 @@
 
         <!-- end of new footer -->
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark fs-5" id="imageModalLabel">코어 이노베이션 어워즈(Core Innovation Awards)
+                    </h5>
+                    <button type="button" class="btn-close  text-dark" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center text-dark mx-6 my-6">
+                    <img src="assets/img/CoreInnnovationAwards.png" alt="최우수상 수상" class="award mx-auto d-block shadow">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
