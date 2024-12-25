@@ -54,7 +54,7 @@ body {
   align-items: center;
 }
 
-#centerh1 {
+#kobotismap {
   color: #fff;
 }
 
@@ -77,10 +77,11 @@ body {
 }
 
 a:link, a:hover, a:visited {
-  color: #3a3a3a;
+  color: #B5B5B5;
 }
 
 a:hover, a:visited {
+  color: #fff;
   font-weight: 600;
 }
 
@@ -183,7 +184,7 @@ i {
 }
 
 #recruit {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   width: 80%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -206,7 +207,7 @@ i {
   color: #17307A;
 }
 
-#frs {
+#kobotis-map {
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -409,7 +410,7 @@ hr {
     width: 70rem;
   }
   #recruit {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     width: 50%;
   }
 }
