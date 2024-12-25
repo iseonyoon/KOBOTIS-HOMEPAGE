@@ -34,59 +34,58 @@
     <!--aos-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body style="overflow-x: hidden">
 
 
-  <!-- nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div id="navmenu" class="container">
-      <a class="navbar-brand" href="index.html">
-        <picture>
-          <source srcset="assets/img/logo.svg" type="image/svg+xml" />
-          <img src="assets/img/logo.svg" class="logo" alt="kobotis logo" />
-        </picture>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-        <ul class="navbar-nav d-flex justify-content-center">
-          <li class="nav-item dropdown">
-            <a id="bdark" class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdownMenuLink"
-              role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              코보티스
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="navmenu" class="container">
+            <a class="navbar-brand" href="index.html">
+                <picture>
+                    <source srcset="assets/img/logo.svg" type="image/svg+xml" />
+                    <img src="assets/img/logo.svg" class="logo" alt="kobotis logo" />
+                </picture>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a id="bdark2" class="dropdown-item" href="history.html">회사소개</a></li>
-              <li><a id="bdark2" class="dropdown-item" href="history.html#kobotishistory">회사연혁</a></li>
-              <li><a id="bdark2" class="dropdown-item" href="expert.html">참여전문가</a></li>
-              <hr class="dropdown-divider">
-              <li><a id="bdark2" class="dropdown-item" href="#centerh1">찾아오시는 길</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a id="bdark" class="nav-link" href="mindcity.html">마인드시티<i class="bi bi-arrow-up-right"></i></a>
-          </li>
-          <li class="nav-item">
-            <a id="bdark" class="nav-link" href="https://steptokorea.com/ko">스텝투코리아<i
-                class="bi bi-arrow-up-right"></i></a>
-          </li>
-          <li class="nav-item">
-            <a id="bdark" class="nav-link" href="recruit.html">인재채용</a>
-          </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+                <ul class="navbar-nav d-flex justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a id="bdark" class="nav-link dropdown-toggle" aria-current="page" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            코보티스
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a id="bdark2" class="dropdown-item" href="history.html">회사소개</a></li>
+                            <li><a id="bdark2" class="dropdown-item" href="history.html#kobotishistory">회사연혁</a></li>
+                            <li><a id="bdark2" class="dropdown-item" href="expert.html">참여전문가</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a id="bdark2" class="dropdown-item" href="#centerh1">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a id="bdark" class="nav-link" href="mindcity.html">마인드시티<i
+                                class="bi bi-arrow-up-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="bdark" class="nav-link" href="https://steptokorea.com/ko">스텝투코리아<i
+                                class="bi bi-arrow-up-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="bdark" class="nav-link" href="recruit.html">인재채용</a>
+                    </li>
 
-  <!-- end of nav -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of nav -->
 
 
     <!-- section -->
@@ -112,434 +111,338 @@
     <!-- list -->
 
 
-    <div class="album py-5 bg-body-tertiary">
+    <div class="album py-5 bg-light">
         <div class="container py-5">
 
-            <div class="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
 
                 <!-- per -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle"
+                                    style="width: 64px; height: 64px; object-fit: cover;" />
 
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">이한욱 박사</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">심리상담 전문가</a>
+                                <div>
+                                    <h5 class="card-title text-dark">이한욱 박사</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#심리상담 전문가</small>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>
+
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">심리학 박사</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">이한욱 가족성장 연구소</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">공주교대 외래교수</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">남.녀 이별케어 솔루션개발 참여</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">심리상담 경력 23년</span>
+                                    </p>
+
+                                </li>
+                            </ul>
                         </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>심리학 박사
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>이한욱 가족성장 연구소
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>공주교대 외래교수
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>남.녀 이별케어 솔루션개발 참여
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>심리상담 경력 23년
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-                <!-- end of per --> <!-- per -->
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
-
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">안세윤 교수</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">심리상담 전문가</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                   
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>건양대 교수/상담 심리학과
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>불안케어 Solution 개발
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>한국상담학회 학술위원장
-                                    </p>
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-                <!-- end of per --> <!-- per -->
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
-
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">원효종 박사</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">심리상담 전문가</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>서울대/가족학 박사
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>충남 상담학회 이사
-                                    </p>
-
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>대전 가정법원 상담 위원장
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>대전 건강 가정 지원센터
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>관계중심 케어 미션 발굴
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>코보티스 미션연구소 설립 논의 중
-                                    </p>
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-                <!-- end of per --> <!-- per -->
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
-
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">임숙희 교수</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">심리상담 전문가</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>건양대 메디컬 캠퍼스
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>우울 및 중독케어 협업
-                                    </p>
-
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
                     </article>
                 </div>
                 <!-- end of per -->
                 <!-- per -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle"
+                                    style="width: 64px; height: 64px; object-fit: cover;" />
 
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">강동주 대표</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">힐링체험 전문가</a>
+                                <div>
+                                    <h5 class="card-title text-dark">안세윤 교수</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#심리상담 전문가</small>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>
+
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">건양대 교수/상담 심리학과</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">불안케어 Solution 개발</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">한국상담학회 학술위원장</span>
+                                    </p>
+
+
+                                </li>
+                            </ul>
                         </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>목원대 시니어아카데미교수
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>브레인트레이너(국가공인)
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>한국희망교육원대표/아명힐링심리상담소대표/아명출판사 대표
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>심리상담사1급/스피치 지도사1급/문화기회사1급/문화복지사1급
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>최면NLP 최고 트레이너(국제공인)/NLP마스터프렉티셔너(국제공인)
-                                    </p>
-
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-                <!-- end of per -->
-
-                <!-- per -->
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
-
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">조은주 박사</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">힐링체험 전문가</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>뇌교육학과 상담심리학 박사
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>국제 뇌교육대학교
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>뇌호흡
-                                    </p>
-
-
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
-                    </article>
-                </div>
-                <!-- end of per -->
-
-                <!-- per -->
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
-
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">이택원 원장</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">힐링체험 전문가</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
-
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>대전 시민대학 교수
-                                    </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>세계하모니카(IHO)/아시아태평양 하모니카연맹/하모니카연맹 대전지부장
-                                    </p>
-
-
-
-
-                                </a>
-                            </li>
-
-                            <li>
-
-                            </li>
-                        </ul>
                     </article>
                 </div>
                 <!-- end of per -->
                 <!-- per -->
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <article class="rounded-xl bg-white p-4 shadow-md">
-                        <div class="flex items-center gap-4">
-                            <img alt=""
-                                src="assets\img\expert.png"
-                                class="size-16 rounded-full object-cover" />
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle"
+                                    style="width: 64px; height: 64px; object-fit: cover;" />
 
-                            <div>
-                                <h3 class="text-lg font-medium text-gray-800">김재원 원장</h3>
-
-                                <div class="flow-root">
-                                    <ul class="-m-1 flex flex-wrap">
-                                        <li class="p-1 leading-none">
-                                            <a href="#" class="text-xs font-medium text-gray-500">힐링체험 전문가</a>
+                                <div>
+                                    <h5 class="card-title text-dark">원효종 박사</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#심리상담 전문가</small>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>
+
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">서울대/가족학 박사</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">충남 상담학회 이사</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">대전 가정법원 상담 위원장</span>
+                                    </p>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">대전 건강 가정 지원센터</span>
+                                    </p>
+
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">관계중심 케어 미션 발굴</span>
+                                    </p>
+
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">코보티스 미션연구소 설립 논의 중</span>
+                                    </p>
+
+
+
+                                </li>
+                            </ul>
                         </div>
+                    </article>
+                </div>
+                <!-- end of per -->
+                <!-- per -->
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle"
+                                    style="width: 64px; height: 64px; object-fit: cover;" />
 
-                        <ul class="mt-4 space-y-2">
-                            <li>
-                                <a href="#" class="block h-full  border-t p-4">
-                                    
+                                <div>
+                                    <h5 class="card-title text-dark">임숙희 교수</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#심리상담 전문가</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>더소율댄스스포츠
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">건양대 메디컬 캠퍼스</span>
                                     </p>
-                                    <p class="mt-1 font-medium text-gray-500">
-                                        <i class="bi bi-dot"></i>대한민국 댄스스포츠연맹
+                                    <p class="row mb-1 text-muted">
+                                        <i class="col-1 bi bi-dot"></i> <span class="col-11">우울 및 중독케어 협업</span>
                                     </p>
 
 
 
 
-                                </a>
-                            </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <!-- end of per -->
+                 <!-- per -->
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle" style="width: 64px; height: 64px; object-fit: cover;" />
+    
+                                <div>
+                                    <h5 class="card-title text-dark">강동주 대표</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#힐링체험 전문가</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i><span class="col-11">목원대 시니어아카데미교수</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i><span class="col-11">브레인트레이너(국가공인)</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i><span class="col-11">한국희망교육원대표/아명힐링심리상담소대표/아명출판사 대표
+                                        </p></span>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i><span class="col-11">심리상담사1급/스피치 지도사1급/문화기회사1급/문화복지사1급</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i><span class="col-11">최면NLP 최고 트레이너(국제공인)/NLP마스터프렉티셔너(국제공인)</span>
+                                        </p>
+                                        
+      
+      
+                           
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <!-- end of per -->
+                                  <!-- per -->
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle" style="width: 64px; height: 64px; object-fit: cover;" />
+    
+                                <div>
+                                    <h5 class="card-title text-dark">조은주 박사</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#힐링체험 전문가</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">뇌교육학과 상담심리학 박사</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">국제 뇌교육대학교</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">뇌호흡</span>
+                                        </p>
 
-                            <li>
-
-                            </li>
-                        </ul>
+                                        
+      
+      
+                           
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <!-- end of per -->
+                 <!-- per -->
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle" style="width: 64px; height: 64px; object-fit: cover;" />
+    
+                                <div>
+                                    <h5 class="card-title text-dark">이택원 원장</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#힐링체험 전문가</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">대전 시민대학 교수</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">세계하모니카(IHO)/아시아태평양 하모니카연맹/하모니카연맹 대전지부장</span>
+                                        </p>
+ 
+      
+                           
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <!-- end of per -->
+                                  <!-- per -->
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <article class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center gap-3">
+                                <img alt="" src="assets/img/expert.png" class="rounded-circle" style="width: 64px; height: 64px; object-fit: cover;" />
+    
+                                <div>
+                                    <h5 class="card-title text-dark">김재원 원장</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <small>#힐링체험 전문가</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <ul class="mt-4 list-unstyled">
+                                <li>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">더소율댄스스포츠</span>
+                                        </p>
+                                        <p class="row mb-1 text-muted">
+                                            <i class="col-1 bi bi-dot"></i> <span class="col-11">대한민국 댄스스포츠연맹</span>
+                                        </p>
+ 
+      
+                           
+                                </li>
+                            </ul>
+                        </div>
                     </article>
                 </div>
                 <!-- end of per -->
 
-
-
-
-
+                <!-- Repeat other cards with similar structure -->
 
             </div>
         </div>
     </div>
 
 
-
-
     <!-- end of list -->
 
 
-    <!-- experts -->
 
-
-
-
-
-
-
-    <!-- end of experts -->
 
 
 

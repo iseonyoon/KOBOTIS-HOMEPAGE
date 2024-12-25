@@ -257,11 +257,11 @@ hr {
 }
 
 #ctitle {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 #ctext {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .carousel-indicators [data-bs-target] {
