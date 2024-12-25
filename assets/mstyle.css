@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
+body {
+  font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 1.2em;
+  color: #404756;
+  font-weight: 400;
+}
+
+#titleText {
+  font-family: "Bagel Fat One", serif;
+  color: #68A5FE;
+}
+
+#mbutton {
+  background-color: #68A5FE;
+  color: #fff;
+}
+
+#mbutton:hover {
+  color: #68A5FE;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 0 0.2rem #68A5FE;
+}
+
+a {
+  color: #83848B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #68A5FE;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#linktext {
+  color: #83848B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#linktext:hover {
+  color: #68A5FE;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#linktext:selection {
+  color: #68A5FE;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#linktextCurrent {
+  color: #68A5FE;
+}
+
+/*# sourceMappingURL=mstyle.css.map */
